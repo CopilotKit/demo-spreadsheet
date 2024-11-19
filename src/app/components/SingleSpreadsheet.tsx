@@ -19,6 +19,8 @@ const SingleSpreadsheet = ({ spreadsheet, setSpreadsheet }: MainAreaProps) => {
     value: spreadsheet,
   });
 
+  const [suggestionsEnabled, setSuggestionsEnabled] = useState<boolean>(true);
+
   useCopilotAction({
     name: "suggestSpreadsheetOverride",
     description: "Suggest an override of the current spreadsheet",
@@ -124,17 +126,6 @@ const SingleSpreadsheet = ({ spreadsheet, setSpreadsheet }: MainAreaProps) => {
     },
   });
 
-  // export interface Cell {
-  //   value: string;
-  // }
-
-  // export type SpreadsheetRow = Cell[];
-
-  // export interface SpreadsheetData {
-  //   title: string;
-  //   rows: SpreadsheetRow[];
-  // }
-
   const [activeCell, setActiveCell] = useState<Point | undefined>(undefined);
   let activeCellData: string | undefined = undefined;
   if (activeCell !== undefined) {
@@ -163,7 +154,7 @@ const SingleSpreadsheet = ({ spreadsheet, setSpreadsheet }: MainAreaProps) => {
         "The value of the cell is: " +
         activeCellData,
       value: { rows: spreadsheet.rows.map((row) => ({ cells: row })) },
-      enabled: !!activeCell && !spreadsheetIsEmpty,
+      enabled: suggestionsEnabled && !!activeCell && !spreadsheetIsEmpty,
       parameters: [
         {
           name: "rows",
@@ -186,7 +177,7 @@ const SingleSpreadsheet = ({ spreadsheet, setSpreadsheet }: MainAreaProps) => {
         },
       ],
     },
-    [JSON.stringify(activeCell), activeCellData, JSON.stringify(spreadsheet)]
+    [JSON.stringify(activeCell), activeCellData, JSON.stringify(spreadsheet), suggestionsEnabled]
   );
 
   console.log(suggestions, isAvailable, isLoading);
@@ -226,6 +217,15 @@ const SingleSpreadsheet = ({ spreadsheet, setSpreadsheet }: MainAreaProps) => {
             setSpreadsheet({ ...spreadsheet, title: e.target.value })
           }
         />
+        <div className="flex items-center mb-4">
+          <label className="mr-2">Enable Suggestions:</label>
+          <input
+            type="checkbox"
+            checked={suggestionsEnabled}
+            onChange={() => setSuggestionsEnabled(!suggestionsEnabled)}
+            className="form-checkbox h-5 w-5 text-blue-600"
+          />
+        </div>
         <div className="flex items-start">
           <Spreadsheet
             data={spreadsheet.rows}
