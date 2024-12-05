@@ -18,9 +18,7 @@ import { PreviewSpreadsheetChanges } from "./components/PreviewSpreadsheetChange
 const HomePage = () => {
   return (
     <CopilotKit
-      publicApiKey={process.env.NEXT_PUBLIC_COPILOT_CLOUD_API_KEY}
-      // Alternatively, you can use runtimeUrl to host your own CopilotKit Runtime
-      // runtimeUrl="/api/copilotkit"
+      runtimeUrl="/api/copilotkit"
       transcribeAudioUrl="/api/transcribe"
       textToSpeechUrl="/api/tts"
     >
