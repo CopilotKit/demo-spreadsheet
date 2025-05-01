@@ -21,7 +21,7 @@
     "@langchain/openai": "^0.3.14",
     "langchain": "^0.3.6",
     "next": "15.0.3",
-    "openai": "^4.76.0",
+    "openai": "^4.96.2",
     "react": "^18",
     "react-dom": "^18",
     "react-spreadsheet": "^0.9.5",
@@ -37,5 +37,6 @@
     "postcss": "^8",
     "tailwindcss": "^3.4.16",
     "typescript": "^5"
-  }
+  },
+  "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39"
 }
