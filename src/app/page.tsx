@@ -52,7 +52,7 @@ const Main = () => {
 
   useCopilotAction({
     name: "createSpreadsheet",
-    description: "Create a new  spreadsheet",
+    description: "Create a new spreadsheet",
     parameters: [
       {
         name: "rows",
@@ -80,6 +80,7 @@ const Main = () => {
       },
     ],
     render: (props) => {
+      console.log("createSpreadsheet => props: => ", props)
       const { rows, title } = props.args;
       const newRows = canonicalSpreadsheetData(rows);
 

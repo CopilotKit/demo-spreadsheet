@@ -47,6 +47,7 @@ const SingleSpreadsheet = ({ spreadsheet, setSpreadsheet }: MainAreaProps) => {
         type: "string",
         description: "The title of the spreadsheet",
         required: false,
+        nullable: true,
       },
     ],
     render: (props) => {
@@ -54,7 +55,7 @@ const SingleSpreadsheet = ({ spreadsheet, setSpreadsheet }: MainAreaProps) => {
       const newRows = canonicalSpreadsheetData(rows);
 
       return (
-        <PreviewSpreadsheetChanges 
+        <PreviewSpreadsheetChanges
           preCommitTitle="Replace contents"
           postCommitTitle="Changes committed"
           newRows={newRows}

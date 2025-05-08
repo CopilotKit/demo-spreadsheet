@@ -24,7 +24,22 @@
     "paths": {
       "@/*": [
         "./src/*"
-      ]
+      ],
+      "@copilotkit/react-core": [
+        "../CopilotKit/CopilotKit/packages/react-core/dist"
+      ],
+      "@copilotkit/shared": [
+        "../CopilotKit/CopilotKit/packages/shared/dist"
+      ],
+      "@copilotkit/react-ui": [
+        "../CopilotKit/CopilotKit/packages/react-ui/dist"
+      ],
+      "@copilotkit/react-ui/*": [
+        "../CopilotKit/CopilotKit/packages/react-ui/dist/*"
+      ],
+      "@copilotkit/runtime": [
+        "../CopilotKit/CopilotKit/packages/runtime/dist"
+      ],
     },
     "target": "ES2017"
   },
@@ -32,7 +47,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
   ],
   "exclude": [
     "node_modules"
