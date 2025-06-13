@@ -3,12 +3,12 @@ This is a demo that showcases using CopilotKit to build an Excel like web app.
 ## Run the live demo
 
 Want to see CopilotKit in action? Click the button below to try the live demo.
-<div style="width: 100%; display: flex; flex-direction: column; gap: 12px; justify-content: center;">
+<div align='center' style="width: 100%; display: flex; flex-direction: column; gap: 12px; justify-content: center;">
   <a href="https://spreadsheet-demo-tau.vercel.app">
     <img src="./public/screenshot.png" alt="Spreadsheet Demo Screenshot" style="width: 100%; display: block;">
   </a>
 
-  <a href="https://spreadsheet-demo-tau.vercel.app" style="margin: auto">
+  <a align='center' href="https://spreadsheet-demo-tau.vercel.app" style="margin: auto">
     <img src="./public/button.svg" alt="Run the live demo">
   </a>
 </div>
