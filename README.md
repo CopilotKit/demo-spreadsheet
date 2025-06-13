@@ -1,7 +1,3 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-
 This is a demo that showcases using CopilotKit to build an Excel like web app.
 
 ## Run the live demo
@@ -12,9 +8,8 @@ Want to see CopilotKit in action? Click the button below to try the live demo.
     <img src="./public/screenshot.png" alt="Spreadsheet Demo Screenshot" style="width: 100%; display: block;">
   </a>
 
-  <a href="https://spreadsheet-demo-tau.vercel.app" style="margin: auto; text-decoration: none; padding: 12px 32px; background-color:#57575B; border-radius: 999px; display: flex; justify-content: center; align-items: center; gap: 12px; width:fit-content">
-    <img src="./public/star.svg" alt="Run the live demo" width="22px" height="22px">
-    <span style="font-family: 'Spline Sans Mono', monospace; font-weight: 500; font-size: 14px; line-height: 14px; letter-spacing: 0px; color: #FFFFFF;">RUN DEMO</span>
+  <a href="https://spreadsheet-demo-tau.vercel.app" style="margin: auto">
+    <img src="./public/button.svg" alt="Run the live demo">
   </a>
 </div>
 
