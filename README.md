@@ -8,7 +8,7 @@ Want to see CopilotKit in action? Click the button below to try the live demo.
     <img src="./public/screenshot.png" alt="Spreadsheet Demo Screenshot" style="width: 100%; display: block;">
   </a>
 
-  <a align='center' href="https://spreadsheet-demo-tau.vercel.app" style="margin: auto">
+  <a align='center' href="https://spreadsheet-demo-tau.vercel.app" style="margin-top: 40px">
     <img src="./public/button.svg" alt="Run the live demo">
   </a>
 </div>
