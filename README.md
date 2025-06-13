@@ -11,9 +11,9 @@ Want to see CopilotKit in action? Click the button below to try the live demo.
 
 <div align='center' style='margin-top: 40px'>
     <a align='center' href="https://spreadsheet-demo-tau.vercel.app" style="margin: auto">
-    <img src="./public/button.svg" alt="Run the live demo">
-  </a>
-<div>
+      <img src="./public/button.svg" alt="Run the live demo">
+    </a>
+</div>
 
 ## Deploy with Vercel
 
