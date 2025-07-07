@@ -5,7 +5,7 @@ This is a demo that showcases using CopilotKit to build an Excel like web app.
 
 Want to see CopilotKit in action? Click the button below to try the live demo.
 
-  <a href="https://x.com/copilotkit" target="_blank">
+  <a href="https://x.com/copilotkit](https://spreadsheet-demo-tau.vercel.app/" target="_blank">
    Run Demo →
   </a> 
   <br></br>
