@@ -1,34 +1,24 @@
+## 🧮 CopilotKit Spreadsheet Demo
 This is a demo that showcases using CopilotKit to build an Excel like web app.
 
-## Run the live demo
+## 🧑‍💻 Run the live demo
 
 Want to see CopilotKit in action? Click the button below to try the live demo.
-<div align='center' style="width: 100%; display: flex; flex-direction: column; gap: 12px; justify-content: center;">
-  <a href="https://spreadsheet-demo-tau.vercel.app">
-    <img src="./public/screenshot.png" alt="Spreadsheet Demo Screenshot" style="width: 100%; display: block;">
-  </a>
-</div>
 
-<br>
-<div align='center'>
-    <a align='center' href="https://spreadsheet-demo-tau.vercel.app" style="margin: auto">
-      <img src="./public/button.svg" alt="Run the live demo">
-    </a>
-</div>
-
-## Deploy with Vercel
-
-To deploy with Vercel, click the button below:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCopilotKit%2Fdemo-spreadsheet&env=NEXT_PUBLIC_COPILOT_CLOUD_API_KEY,TAVILY_API_KEY&envDescription=By%20setting%20the%20TAVILY_API_KEY%2C%20you%20control%20whether%20the%20web%20search%20capabilities%20are%20enabled.%20Set%20it%20to%20NONE%20to%20disable%20this%20feature.&project-name=copilotkit-demo-spreadsheet&repository-name=copilotkit-demo-spreadsheet)
-
-## How to Build: A spreadsheet app with an AI-copilot
+  <a href="https://x.com/copilotkit" target="_blank">
+   Run Demo →
+  </a> 
+  <br></br>
+  
+![banner](https://github.com/user-attachments/assets/992b06ae-be6c-4bd2-ae57-20a793688e78)
+  
+## 🛠️ How to Build: A spreadsheet app with an AI-copilot
 
 Learn how to create a powerful spreadsheet app using CopilotKit. This tutorial will guide you through the process step-by-step.
 
 Tutorial: [How to Build: A spreadsheet app with an AI-copilot](https://dev.to/copilotkit/build-an-ai-powered-spreadsheet-app-nextjs-langchain-copilotkit-109d)
 
-## Getting Started
+## 🚀 Getting Started
 
 ### 1. install the needed package:
 
@@ -40,7 +30,6 @@ npm i
 
 copy `.env.local.example` to `.env.local` and populate the required environment variables.
 
-> ⚠️ **Important:** Not all users have access to the GPT-4 model yet. If you don't have access, you can use GPT-3 by setting `OPENAI_MODEL` to `gpt-3.5-turbo` in the `.env.local` file.
 
 ### 3. Run the app
 
@@ -54,9 +43,9 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ### 4. Use the Copilot
 
-TODO add details what to do as a user
+Ask it to build a budget spreadsheet.
 
-## Zoom in on the CopilotKit code
+## 🔍 Zoom in on the CopilotKit code
 
 1. Look for `/api/copilotkit/route.ts` and `/api/copilotkit/tavily.ts` - for the research agent integrated into the spreadsheet
 
@@ -64,10 +53,12 @@ TODO add details what to do as a user
 
 3. Search for `updateSpreadsheet`, `appendToSpreadsheet`, and `createSpreadsheet` to see application interaction hooks made available to agents.
 
-## Learn More
+## 📚 Learn More
 
 To learn more about CopilotKit, take a look at the following resources:
 
 - [CopilotKit Documentation](https://docs.copilotkit.ai/getting-started/quickstart-chatbot) - learn about CopilotKit features and API.
 - [GitHub](https://github.com/CopilotKit/CopilotKit) - Check out the CopilotKit GitHub repository.
 - [Discord](https://discord.gg/6dffbvGU3D) - Join the CopilotKit Discord community.
+
+
