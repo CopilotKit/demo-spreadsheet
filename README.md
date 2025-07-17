@@ -10,7 +10,8 @@ Want to see CopilotKit in action? Click the button below to try the live demo.
   </a> 
   <br></br>
   
-![banner](https://github.com/user-attachments/assets/992b06ae-be6c-4bd2-ae57-20a793688e78)
+<img width="3776" height="2189" alt="Readme 2 - Redesign" src="https://github.com/user-attachments/assets/c949a614-1593-4f5b-adc6-e1f6a7344fcc" />
+
   
 ## 🛠️ How to Build: A spreadsheet app with an AI-copilot
 
